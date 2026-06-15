@@ -3,6 +3,10 @@ locale = 'en-us'
 title = 'aux1r.dev'
 theme = 'mana'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [pagination]
   pageSize = 10
 
