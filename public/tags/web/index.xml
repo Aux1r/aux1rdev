@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Web on aux1r.dev</title>
+		<link>http://localhost:1313/tags/web/</link>
+		<description>Recent content in Web on aux1r.dev</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 12 Jun 2026 04:43:31 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Personal Site</title>
+				<link>http://localhost:1313/posts/personal-site/</link>
+				<pubDate>Fri, 12 Jun 2026 04:43:31 +0200</pubDate>
+				<guid>http://localhost:1313/posts/personal-site/</guid>
+				<description>&lt;h1 id=&#34;welcome-to-my-site&#34;&gt;Welcome to my site!&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my personal site and blog! I&amp;rsquo;m going to be using this website to host both a portfolio of my work and a general blog to write about all things I write interesting. Mostly tech, but maybe I&amp;rsquo;ll expand to other stuff too.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve come across Hugo a few times whilst at University - mostly my other CS student friends using it to build their own sites too. It&amp;rsquo;s relatively simple, hassle-free and doesn&amp;rsquo;t require me to reinvent the wheel for a nice looking site. Originally I thought about using one of the fancier frameworks like &lt;strong&gt;React&lt;/strong&gt; or &lt;strong&gt;Vue&lt;/strong&gt; which I had some experience with, but that would be overglorifying what is effectively just a blog site. I&amp;rsquo;ve also had cold feet about &lt;strong&gt;React&lt;/strong&gt; in particular with regards to the recent severe vuln disclosures (which if I recall correctly could have resulted in Remote Code Execution). Equally I just wanted something running out of the box quickly and with minimal faff, which is why I didn&amp;rsquo;t do classic HTML + CSS + JS.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

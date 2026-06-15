@@ -1,0 +1,102 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'aux1r.dev'
+theme = 'mana'
+
+[pagination]
+  pageSize = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      # Enable block-level attributes for blockquotes
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "catppuccin-macchiato"  # Default style
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+# Sitemap configuration for SEO
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  description = "Software portfolio and blog"
+  favicon = "favicon/favicon.ico"
+  footerText = "Built with Hugo and Mana theme!"  # Optional
+  custom404Message = "This page is either coming soon or the URL is messed up!"
+  
+  # Hero section title (optional - defaults to site.Title)
+  heroTitleLine1 = "Hey, I'm Kacper"
+  heroTitleLine2 = "Studying CS with too many interests"
+
+  [params.codeHighlight]
+    darkTheme = "catppuccin-macchiato"   # Theme for dark mode
+    lightTheme = "catppuccin-frappe"     # Theme for light mode
+
+  [params.avatar]
+    [params.avatar.home]
+      assetPath = "images/oAoUpside.png"
+    [params.avatar.about]
+      assetPath = "images/oAoUpside.png"
+    [params.avatar.fourOfour]
+      assetPath = "images/oAoSad.png" 
+
+  [params.umami]
+    websiteId = "754c108a-b9b6-4d3b-8056-f2c62cb009f6"
+
+  [params.favicons]
+    ico = "/favicon/favicon.ico"
+    png = "/favicon/favicon.png"
+    png16 = "/favicon/favicon-16x16.png"
+    png32 = "/favicon/favicon-32x32.png"
+    apple180 = "/favicon/apple-touch-icon.png"
+    android192 = "/favicon/android-chrome-192x192.png"
+    android512 = "/favicon/android-chrome-512x512.png"
+    manifest = "/favicon/site.webmanifest"
+
+  [params.social]
+    github = "https://github.com/aux1r"
+    linkedin = "https://www.linkedin.com/in/kacper-szymanski-edi/"
+
+    [params.copyright]
+    owner = "aux1r"
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 30
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 40
+
+[[menus.main]]
+  name = 'CV'
+  url = '/cv/'
+  weight = 50
