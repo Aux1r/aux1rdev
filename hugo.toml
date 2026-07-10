@@ -102,5 +102,5 @@ theme = 'mana'
 
 [[menus.main]]
   name = 'CV'
-  url = '/cv/'
+  url = '/cv.pdf'
   weight = 50
